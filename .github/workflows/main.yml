@@ -21,4 +21,4 @@ jobs:
       run: |
         # Add your deployment command as
          az login
-         az deployment group create --resource-group suresh --template-file full.bicep
+         az deployment group create --resource-group rg123 --template-file full.bicep
