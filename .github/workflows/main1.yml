@@ -18,7 +18,7 @@ jobs:
       - name: Validate syntax
         run: |
           npm install -g jsonlint
-          jsonlint file.json
+          jsonlint full.bicep
       - name: Deploy to Azure
         if: success()
         run: |
